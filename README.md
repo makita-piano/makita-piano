@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm makita-piano</h1>
 <h3 align="center">welcome</h3>
+<img src="hello.svg" width="800" height="400">
 
 
 <h3 align="left">Languages and Tools:</h3>
