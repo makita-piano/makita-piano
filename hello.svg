@@ -69,3 +69,300 @@
   <circle class="st15 scale-1 delay-2" cx="588.8" cy="101" r="5"/>
   <circle class="st15 scale-1" cx="558.8" cy="101" r="3"/>
 </svg> 
+
+<style>
+  .st0 {
+  fill: none;
+  stroke: #BFE3EA;
+  stroke-width: 4;
+}
+
+.st1 {
+  fill: none;
+  stroke: #BFE3EA;
+  stroke-width: 6;
+}
+
+.st2 {
+  fill: none;
+  stroke: #C6B5F3;
+  stroke-width: 4;
+}
+
+.st3 {
+  fill: #C6B5F3;
+}
+
+.st4 {
+  fill: none;
+  stroke: #C6B5F3;
+  stroke-width: 10;
+}
+
+.st5 {
+  fill: none;
+  stroke: #C6B5F3;
+  stroke-width: 8;
+}
+
+.st6 {
+  fill: none;
+  stroke: #6DC3A4;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.st7 {
+  fill: none;
+  stroke: #777E74;
+  stroke-width: 16;
+  stroke-linecap: round;
+}
+
+.st8 {
+  fill: #BFE3EA;
+}
+
+.st9 {
+  fill: #6DC3A4;
+}
+
+.st10 {
+  fill: none;
+  stroke: #777E74;
+  stroke-width: 16;
+}
+
+.st10--a {
+  fill: none;
+  stroke: #C6B5F3;
+  stroke-width: 10;
+}
+
+.st10--b {
+  fill: none;
+  stroke: #6DC3A4;
+  stroke-width: 12;
+}
+
+.st11 {
+  fill: none;
+  stroke: #FFD000;
+  stroke-width: 16;
+}
+
+.st12 {
+  fill: none;
+  stroke: #6DC3A4;
+  stroke-width: 12;
+}
+
+.st13 {
+  fill: none;
+  stroke: #FFD000;
+  stroke-width: 8;
+}
+
+.st14 {
+  fill: #FFD000;
+}
+
+.st15 {
+  fill: none;
+  stroke: #FFD000;
+  stroke-width: 4;
+}
+
+.an-1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity: 0;
+  animation-delay: 1.5s;
+  animation: dash 5s linear forwards;
+}
+
+.an-2 {
+  animation: dash-2 0.3s linear forwards;
+}
+
+.an-3 {
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 100;
+  animation-delay: 1.5s;
+  animation: dash 10s linear infinite forwards;
+}
+
+.an-4 {
+  animation-delay: 1.5s;
+  animation: an-4 0.6s ease-in-out forwards;
+  transform: translate(-150%, 0);
+}
+
+.delay-1 {
+  animation-delay: 0.4s;
+}
+
+.delay-2 {
+  animation-delay: 0.8s;
+}
+
+.delay-first-1 {
+  animation-delay: 1s;
+}
+
+.delay-middle-1 {
+  animation-delay: 1.2s;
+}
+
+.delay-last-1 {
+  animation-delay: 1.4s;
+}
+
+.delay-first-2 {
+  animation-delay: 1.6s;
+}
+
+.delay-middle-2 {
+  animation-delay: 1.8s;
+}
+
+.delay-last-2 {
+  animation-delay: 2s;
+}
+
+.delay-last-3 {
+  animation-delay: 2.5s;
+}
+
+.delay-last-4 {
+  animation-delay: 2.8s;
+}
+
+.delay-last-5 {
+  animation-delay: 3s;
+}
+
+.rotate {
+  transform-origin: 50%;
+  animation: rotate 15s ease-in-out infinite forwards;
+}
+
+.orbit {
+  transform-origin: 50% 56%;
+  animation: orbit 2s linear infinite forwards;
+}
+
+.scale {
+  transform: scale(0);
+  transform-origin: 50%;
+  animation: scale-simple 0.6s ease-in-out forwards;
+}
+
+.scale-1 {
+  transform: scale(0);
+  transform-origin: 50%;
+  animation: scale 0.6s ease-in-out forwards;
+}
+
+.scale-rotate {
+  transform: scale(0) rotate(0);
+  transform-origin: 50%;
+  animation: scale-rotate 0.6s ease-in-out forwards;
+}
+
+.illo-ydot {
+  fill: none;
+  stroke: #FFD000;
+  stroke-width: 4;
+  transform: scale(0);
+  transform-origin: 50%;
+  animation: scale-dot 0.6s ease-in-out forwards;
+}
+
+.illo-ylt {
+  fill: #FFD000;
+  stroke: none;
+  transform-origin: 50%;
+  height: 0px;
+}
+
+.illo-glt {
+  fill: #6DC3A4;
+  stroke: none;
+  height: 0px;
+}
+
+.illo-bwave {
+  fill: none;
+  stroke: #BFE3EA;
+  stroke-width: 4;
+}
+
+@keyframes dash {
+  2% {
+    opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@keyframes dash-2 {
+  to {
+    height: 40px;
+  }
+}
+@keyframes an-4 {
+  90% {
+    transform: translate(10%, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  15% {
+    transform: rotate(720deg);
+  }
+}
+@keyframes scale-rotate {
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes scale-simple {
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scale {
+  50% {
+    transform: scale(2);
+  }
+  70% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scale-dot {
+  50% {
+    transform: scale(2);
+  }
+  70% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+</style>
